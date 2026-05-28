@@ -1,0 +1,25 @@
+/* App.css */
+/* Global styles for the BookStore application */
+
+/* Make the app take the full page height and use flex column layout */
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Main content should grow to fill available space */
+.main-content {
+  flex: 1;
+}
+
+/* Make all buttons have a pointer cursor when hovered */
+button {
+  cursor: pointer;
+}
+
+/* Smooth color transition on buttons (basic hover effect) */
+button:hover {
+  opacity: 0.88;
+}

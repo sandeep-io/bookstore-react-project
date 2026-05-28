@@ -1,0 +1,38 @@
+/* index.css */
+/* These are global reset styles that apply to the ENTIRE website */
+/* Reset removes the default browser spacing so we have full control */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Remove default list styles */
+ul {
+  list-style: none;
+}
+
+/* Remove default link underline */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Make images responsive by default */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
